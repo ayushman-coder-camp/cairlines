@@ -1,0 +1,149 @@
+:root{
+    --primary-color: #466dab;
+    --header-color: #aa4415;
+    --about-background: #ced1d6;
+    --signup-background: #4e4fb6;
+    --footer-color: #573f9e;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 82vh;
+    width: 100%;
+}
+
+
+
+#top-sec .header{
+    color: #fff;
+    background-color: var(--header-color);
+    width: 45%;
+    padding: 28px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 220%;
+    transform: translateY(220%);
+    background: var(--about-background);
+}
+
+#about .features-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#about .features-container .feature-box{
+    padding: 21px;
+}
+
+#about .features-container .feature-box .main-space .feature-text{
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+#flights{
+    top: 600%;
+    transform: translateY(600%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#flights .destanation1 i{
+    font-size: 2rem;
+    color: green;
+}
+
+#flights .destanation2{
+    left: 26%;
+    transform: translateX(26%)
+}
+
+#flights .destanation2 i{
+    font-size: 2rem;
+    color: red;
+}
+
+#flights .divider{
+    background-color: var(--primary-color);
+    width: 800px;
+    height: 7px;
+}
+
+#sign-up{
+    top: 1503%;
+    transform: translateY(1503%);
+    background: var(--primary-color);
+    padding: 10px;
+}
+
+#sign-up .heading button{
+    background-color: var(--primary-color);
+    border: 2px solid #224aa1;
+    border-radius: 20px;
+    height: 60px;
+}
+
+footer{
+    transform: translateY(450%);
+    background-color: var(--footer-color);
+    color: #fff;
+    padding: 20px;
+}
+
+footer .media{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .media .icons i{
+    color: #fff;
+    padding: 5px;
+    font-size: 34px;
+}
+
+footer .info .info1 i, footer .info .info2 i, footer .info .info3 i{
+    color: white;
+    font-size: 2.25rem;
+    margin-right: 15px;
+}
+
+footer .info .info1, footer .info .info2, footer .info .info3{
+    display: flex;
+}
+
+.btn-login{
+    padding: 10px;
+    border: 3px solid #fff;
+    background: transparent;
+    color: #fff;
+    width: 40%;
+    height: 50px;
+    font-size: 20px;
+}
+
+.multi-box .divider{
+    width: 10px;
+    height: 200px;
+    background-color: #fff;
+}
+
+.multi-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 50%;
+    transform: translateY(50%);
+}
